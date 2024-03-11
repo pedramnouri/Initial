@@ -5,4 +5,4 @@ using ConsoleApp1.ignore;
 Console.WriteLine("Hello, Worlddd!");
 Student student = new Student("9431025", 28);
 
-Console.WriteLine(student.age);
+Console.WriteLine($"{student.age}, {student.id}");
